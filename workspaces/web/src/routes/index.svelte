@@ -34,25 +34,24 @@
               primary
               inverted
               outlined
-              href="course/spanish-from-english">
-              {$_('index.start_spanish_course')}
+              href="course/driving">
+              {$_('index.start_driving_lesson')}
             </Button>
 
             <Button
               primary
               inverted
               outlined
-              hidden
-              href="course/german-from-english">
-              {$_('index.start_german_course')}
+              href="course/police">
+              {$_('index.start_police_learn')}
             </Button>
 
-            <Button primary inverted outlined href="about">
+            <Button primary inverted outlined hidden href="about">
               {$_('index.about_librelingo')}
             </Button>
 
-            <Button primary inverted outlined href="development">
-              Development progress
+            <Button primary inverted outlined href="https://mazecity.fr">
+              A propos de MazeCity
             </Button>
           </div>
         </Column>
@@ -61,10 +60,6 @@
 
   </div>
 </section>
-
-<div class="license">
-  <LicenseLogo />
-</div>
 
 <style>
   @import "../variables";
@@ -82,12 +77,6 @@
         adjust-color($blue, $red: -20%) 81%,
         adjust-color($blue, $red: +40%) 100%
       ) !important;
-  }
-
-  .license {
-    position: absolute;
-    right: 1em;
-    bottom: 1em;
   }
 
   @include until($tablet) {

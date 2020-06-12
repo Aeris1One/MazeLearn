@@ -7,7 +7,6 @@ Feature: Landing page
       Given I open "/"
       Then landing page looks correct
       Then landing page looks cute
-      And I read "LibreLingo"
-      And I see a Start learning Spanish button
-      And I see an About LibreLingo button
-      And "Licensed under AGPL - Free as in Freedom" is graphically represented
+      And I read "MazeLearn"
+      And I see a Acceder à MazeLearn button
+      And I see an À propos de MazeCity button

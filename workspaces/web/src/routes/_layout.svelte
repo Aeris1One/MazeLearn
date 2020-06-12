@@ -12,32 +12,14 @@
 </script>
 
 <svelte:head>
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:description"
-    content="an experiment to create a community-owned language-learning
-    platform" />
-  <meta name="twitter:title" content="LibreLingo" />
 
-  <meta
-    name="twitter:image"
-    content="https://librelingo.app/images/social_cover_1.png" />
-  <meta name="twitter:creator" content="@cacophonism" />
-
-  <meta property="og:title" content="LibreLingo" />
-  <meta
-    property="og:description"
-    content="an experiment to create a community-driven language-learning
-    platform" />
-  <meta
-    property="og:image"
-    content="https://librelingo.app/images/social_cover_1.png" />
+  <meta property="og:title" content="MazeLearn" />
 
 </svelte:head>
 
 {#if process.browser !== true || ($authStore.online === null && settings.features.authEnabled)}
   <div class="pageloader is-active">
-    <span class="title">LibreLingo</span>
+    <span class="title">MazeLearn</span>
   </div>
 {/if}
 
